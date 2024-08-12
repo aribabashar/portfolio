@@ -63,6 +63,12 @@
     height: fit-content;
     margin-bottom: 2rem;
   }
+
+  .project-containers{
+  display: grid;
+  grid-template-columns: repeat(1,1fr);
+}
+  
   .about-containers,
   .contact-info-upper-container,
   .btn-container {
