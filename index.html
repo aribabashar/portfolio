@@ -1,0 +1,494 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <!-- Google tag (gtag.js) -->
+    <!-- <script async src="https://www.googletagmanager.com/gtag/js?id=G-ZKHGLTZD58"></script>
+    <script>
+        window.dataLayer = window.dataLayer || [];
+        function gtag() { dataLayer.push(arguments); }
+        gtag('js', new Date());
+
+        gtag('config', 'G-ZKHGLTZD58');
+    </script> -->
+
+    <!-- Hotjar Tracking Code for https://zuha1311.github.io/ -->
+
+    <!-- <script>
+        (function (h, o, t, j, a, r) {
+            h.hj = h.hj || function () { (h.hj.q = h.hj.q || []).push(arguments) };
+            h._hjSettings = { hjid: 3576546, hjsv: 6 };
+            a = o.getElementsByTagName('head')[0];
+            r = o.createElement('script'); r.async = 1;
+            r.src = t + h._hjSettings.hjid + j + h._hjSettings.hjsv;
+            a.appendChild(r);
+        })(window, document, 'https://static.hotjar.com/c/hotjar-', '.js?sv=');
+    </script> -->
+
+
+    <title>ARIBA BASHAR</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Raleway">
+    <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="icon" href="assets/favicon.png" type="image/x-icon">
+
+    <script src='https://kit.fontawesome.com/a076d05399.js' crossorigin='anonymous'></script>
+    <style>
+        html {
+            scroll-behavior: smooth;
+        }
+
+        body,
+        h1,
+        h2,
+        h3,
+        h4,
+        h5 {
+            font-family: "Raleway", sans-serif
+        }
+
+        .w3-bar .w3-button {
+            padding: 16px;
+        }
+
+        /* Animation for stats */
+        @keyframes slideIn {
+            0% {
+                opacity: 0;
+                transform: translateY(50px);
+            }
+
+            100% {
+                opacity: 1;
+                transform: translateY(0);
+            }
+        }
+
+        .animateStats {
+            animation: slideIn 1.5s ease-in-out;
+        }
+
+
+        .statsBar {
+
+            background: #ffffff;
+            color: black;
+        }
+
+        @media (min-width: 1200px) {
+            .sticky {
+
+                position: sticky;
+                top: 0;
+                padding: 10px;
+            }
+
+        }
+
+        @media screen and (max-width: 700px) {
+            .contentPadding {
+                padding-left: 16px;
+                padding-right: 16px;
+            }
+
+            .contentCardPadding {
+                padding-bottom: 20px;
+            }
+
+            .bannerPadding {
+                padding-left: 64px;
+                padding-right: 64px;
+
+
+            }
+        }
+
+        /* @media screen and (max-width: 768px) { //need to solve this
+           .mobileButton {
+                margin-top: 10px;
+                display: block;
+                margin-right: 0;
+            }
+        } */
+
+        @media screen and (min-width: 701px) {
+            .contentPadding {
+                padding-left: 100px;
+                padding-right: 100px;
+
+
+            }
+
+            .contentCardPadding {
+                padding-bottom: 100px;
+            }
+
+            .bannerPadding {
+                padding: 64px;
+
+            }
+
+            .fixedSizeImage {
+                max-width: 500px;
+                max-height: 400px;
+            }
+        }
+
+        .name {
+            background: rgb(5, 0, 91);
+            background: linear-gradient(90deg, rgba(5, 0, 91, 1) 0%, rgba(9, 9, 121, 1) 35%, rgba(0, 157, 255, 1) 100%);
+        }
+
+        .button {
+            color: #e0218a;
+            background: white;
+            outline: 1px solid #e0218a;
+        }
+
+        .nameText {
+            color: #000000;
+        }
+
+        .navbar {
+            color: #000000;
+            background-color: #ffffff;
+        }
+
+        @media screen and (min-width: 768px) and (max-width: 1024px) {
+
+            /*ipad portrait*/
+            .contentPadding {
+                padding-left: 50px;
+                padding-right: 50px;
+            }
+
+
+            .fixedSizeImage {
+                max-width: 350px;
+                max-height: 250px;
+            }
+        }
+
+        @media screen and (min-width: 768px) and (max-width: 1024px) and (orientation: landscape) {
+
+            /*ipad landscape*/
+            .contentPadding {
+                padding-left: 20px;
+                padding-right: 20px;
+            }
+
+            .fixedSizeImage {
+                max-width: 500px;
+                max-height: 400px;
+            }
+        }
+
+
+        .project-card {
+            width: 100%;
+            display: flex;
+            align-items: center;
+
+        }
+
+
+
+        @media screen and (max-width: 767px) {
+
+            /*mobile*/
+            .project-card {
+
+                flex-direction: column;
+                text-align: center;
+                padding-bottom: 20px;
+            }
+
+            .fixedSizeImage {
+                max-width: 350px;
+                max-height: 250px;
+                width: 100%;
+            }
+        }
+    </style>
+</head>
+
+
+
+<body class="w3-white">
+
+    <!-- w3-content defines a container for fixed size centered content, 
+and is wrapped around the whole page content, except for the footer in this example -->
+
+
+
+    <!-- Navbar (sit on top) -->
+    <div class="w3-top">
+        <div class="w3-bar navbar " id="myNavbar">
+            <a href="/index.html" class="w3-bar-item w3-button w3-wide w3-white">AB</a>
+            <!-- Right-sided navbar links -->
+            <div class="w3-right w3-hide-small w3-">
+                <a href="#work" class="w3-bar-item w3-button"><i class="fa fa-fw fa-user-secret"></i>WORK</a>
+                <a href="/about.html" class="w3-bar-item w3-button"><i class="fa fa-user"></i> ABOUT</a>
+                <a href="/assets/Ariba_Resume.pdf" target="_blank" class="w3-bar-item w3-button"><i
+                        class="fa fa-fw fa-vcard"></i> CV</a>
+
+                <a href="mailto:aribaaa667@gmail.com" class="w3-bar-item w3-button"><i class="fa fa-coffee"></i>
+                    CONTACT</a>
+
+            </div>
+            <!-- Hide right-floated links on small screens and replace them with a menu icon -->
+
+            <a href="javascript:void(0)" class="w3-bar-item w3-button w3-right w3-hide-large w3-hide-medium"
+                onclick="w3_open()">
+                <i class="fa fa-bars"></i>
+            </a>
+        </div>
+    </div>
+
+    <!-- Sidebar on small screens when clicking the menu icon -->
+    <nav class="w3-sidebar w3-bar-block navbar w3-card w3-animate-left w3-hide-medium w3-hide-large"
+        style="display:none" id="mySidebar">
+        <a href="javascript:void(0)" onclick="w3_close()" class="w3-bar-item w3-button w3-large w3-padding-16">Close
+            ×</a>
+        <a href="#work" onclick="w3_close()" class="w3-bar-item w3-button"><i
+                class="fa fa-fw fa-user-secret"></i>WORK</a>
+        <a href="/about.html" onclick="w3_close()" class="w3-bar-item w3-button"><i class="fa fa-user"></i> ABOUT</a>
+        <a href="assets/Ariba_Resume.pdf" target="_blank" class="w3-bar-item w3-button"><i
+                class="fa fa-fw fa-vcard"></i>
+            CV</a>
+
+        <a href="mailto:aribaaa667@gmail.com" onclick="w3_close()" class="w3-bar-item w3-button"><i
+                class="fa fa-coffee"></i>CONTACT</a>
+
+    </nav>
+
+    <div class="w3-content" style="max-width:1400px">
+
+        <!-- Header -->
+        <header class="w3-display-container w3-mobile w3-responsive bannerPadding ">
+
+
+
+            <div class="w3-center nameText w3-padding-64 w3-mobile w3-responsive">
+                <div style="position: absolute; top: 0; left: 0; width: 100%; height: 100%;">
+                    <!-- <img src="bg6.jpg" style="height: 100%; width: 100%; object-fit: cover; opacity: 0.4;"> -->
+                </div>
+
+                <div style="position: relative;">
+                    <h1 class="w3-xxxlarge ">Hey there <b>I'm Ariba</b></h1>
+                    <h3 class="animateStats">I am a Freelance <span style="color: #e0218a;"><b>UI/UX Designer</b></span><br>Helping small business and startups take-off and achieve the much needed digital presence.
+                    </h3>
+
+
+
+
+
+                    <!-- Promo Section "Statistics" -->
+
+                    <div class=" w3-row w3-center w3-padding-64 statsBar">
+                        <div class="w3-quarter animateStats">
+                            <span class="w3-xxlarge" style="text-shadow:1px 1px 0 #444; "><i
+                                    class="fa fa-history"></i><br><b style="color: #e0218a;">12+</b></span>
+                            <br>Months of UX experience
+                        </div>
+                        <div class="w3-quarter animateStats">
+                            <span class="w3-xxlarge" style="text-shadow:1px 1px 0 #444"><i
+                                    class="fa fa-calendar-check-o"></i><br><b
+                                    style="color: #e0218a;">5+</b></span>
+                            <br>Successfully completed UX projects
+                        </div>
+                        <div class="w3-quarter animateStats">
+                            <span class="w3-xxlarge" style="text-shadow:1px 1px 0 #444"><i
+                                    class="fa fa-thumbs-o-up"></i><br><b
+                                    style="color: #e0218a;">10+</b></span>
+                            <br>Happy stakeholders
+                        </div>
+                        <div class="w3-quarter animateStats">
+                            <span class="w3-xxlarge" style="text-shadow:1px 1px 0 #444"><i
+                                    class="fa fa-pencil-square-o"></i><br><b
+                                    style="color: #e0218a;">30+</b></span>
+                            <br>Hours of user research and testing
+                        </div>
+                    </div>
+
+                    <br>
+                    <h5><button
+                            class="w3-button w3-padding-large button w3-hover-light-gray w3-border w3-round w3-large"
+                            style="color:#e0218a"><a href="#work" style="text-decoration: none;">
+                                See my projects below <i class="fa fa-chevron-down" aria-hidden="true"></i></a></button>
+                    </h5>
+
+
+
+
+                </div>
+            </div>
+
+
+
+        </header>
+
+        <!-- Grid -->
+        <div class="contentPadding" id="work">
+
+
+            <div class="w3-container contentCardPadding">
+                <div class="w3-card-2 w3-animate-left project-card  w3-round-xlarge">
+                    <div class="w3-container">
+
+                        <h3 style="color: #800080;">Ongoing Project</h3><br>
+                        <h1 style="color:#800080;"><b>KnowData Academy</b>
+                        </h1>
+
+                        <p> <span class="w3-tag w3-light-grey w3-large w3-margin-bottom">User Research</span>
+                            <span class="w3-tag w3-light-grey w3-large w3-margin-bottom">Competitor Analysis</span>
+                            <span class="w3-tag w3-light-grey w3-large w3-margin-bottom">Usability Testing</span>
+                            <span class="w3-tag w3-light-grey w3-large w3-margin-bottom">WordPress</span>
+                            <span class="w3-tag w3-light-grey w3-large w3-margin-bottom">SEO Optimization</span>
+                            <span class="w3-tag w3-light-grey w3-large w3-margin-bottom">Google Analytics</span>
+                        </p> <br>
+
+
+                        <h5><button class="w3-button w3-padding-large button w3-hover-light-gray w3-border w3-round"
+                                style="color:#e0218a"><a href="https://www.behance.net/gallery/205898413/Case-Study-KnowData-Academy" target="_blank"
+                                    style="text-decoration: none;">
+                                    Find out more <i class="fa fa-chevron-right" aria-hidden="true"></i></a></button>
+                        </h5>
+                    </div>
+
+                    <img src="assets/knowdata.png" alt="" class="fixedSizeImage  w3-round-xlarge"
+                        style="background-size: cover;">
+
+
+                </div>
+            </div>
+
+
+
+
+            <div class="w3-container contentCardPadding">
+                <div class="w3-card-2 w3-animate-right project-card w3-round-xlarge">
+                    <img src="assets/art & design life.png" alt="" class="fixedSizeImage w3-round-xlarge"
+                        style="background-size: cover;">
+                    <div class="w3-container">
+                        <h3 style="color: #b78a14;">Improved user experience by 25% through targeted usability testing, enhancing portfolio and brand perception</h3><br>
+                        <h1 style="color: #b78a14;"><b>Art & Design Life, Architecture & Interior Designing Firm</b></h1>
+
+                        <p> <span class="w3-tag w3-light-grey w3-large w3-margin-bottom">User Research</span>
+                            <span class="w3-tag w3-light-grey w3-large w3-margin-bottom">Information Architecture</span>
+                            <span class="w3-tag w3-light-grey w3-large w3-margin-bottom">Usability testing</span>
+                            <span class="w3-tag w3-light-grey w3-large w3-margin-bottom">Wireframes</span>
+
+
+                        </p> <br>
+
+
+                        <h5><button class="w3-button w3-padding-large button w3-hover-light-gray w3-border w3-round"
+                                style="color:#e0218a"><a href="https://www.behance.net/gallery/204612757/UIUX-Case-Study-Art-Design-Life-Firm" target="_blank"
+                                    style="text-decoration: none;">
+                                    Find out more <i class="fa fa-chevron-right" aria-hidden="true"></i></a></button>
+                        </h5>
+                    </div>
+                </div>
+            </div>
+
+
+
+            <div class="w3-container contentCardPadding">
+                <div class="w3-card-2 w3-animate-left project-card  w3-round-xlarge">
+                    <div class="w3-container">
+
+                        <h3 style="color: #00a587;">Increased user satisfaction with finding order information by 17% and 
+                            reduced task completion time by approximately 40% </h3><br>
+                        <h1 style="color:#00a587;"><b>Redesigned Clickpost's return and exchange flow</b>
+                        </h1>
+
+                        <p> <span class="w3-tag w3-light-grey w3-large w3-margin-bottom">User Research</span>
+                            <span class="w3-tag w3-light-grey w3-large w3-margin-bottom">Usability Testing</span>
+                            <span class="w3-tag w3-light-grey w3-large w3-margin-bottom">User Experience</span>
+
+
+                        </p> <br>
+
+
+                        <h5><button class="w3-button w3-padding-large button w3-hover-light-gray w3-border w3-round"
+                                style="color:#e0218a"><a href="https://www.behance.net/gallery/203633957/Redesigning-the-Clickpost-Return-Exchange-Flow" target="_blank"
+                                    style="text-decoration: none;">
+                                    Find out more <i class="fa fa-chevron-right" aria-hidden="true"></i></a></button>
+                        </h5>
+                    </div>
+
+                    <img src="assets/clickpost.png" alt="" class="fixedSizeImage  w3-round-xlarge"
+                        style="background-size: cover;">
+
+
+                </div>
+            </div>
+
+
+
+            
+
+
+
+
+
+
+
+
+
+
+
+
+        </div> <!-- END GRID -->
+
+    </div><!-- END w3-content -->
+
+
+    <!-- Footer -->
+    <footer class="w3-center w3-padding-64 w3-white">
+        <a href="index.html" class="w3-button w3-light-grey"><i class="fa fa-arrow-up w3-margin-right"></i>To the
+            top</a>
+        <div class="w3-xlarge w3-section">
+            <a href="mailto: aribaaa667@gmail.com"> <i class="fa fa-envelope-open"
+                    style="font-size:34px;  margin: 10px;"></i></a>
+
+            <a href="https://www.linkedin.com/in/ariba-bashar/" target="_blank"><i style="font-size:35px; margin: 10px;"
+                    class="fa">&#xf08c;</i></a>
+
+
+            <a href="https://www.behance.net/aribabashar" target="_blank"> <i style="font-size:35px;margin: 10px;"
+                    class="fa">&#xf1b4;</i></a>
+
+        </div>
+        <p style="font-family: 'Poppins',sans-serif;">Copyright <i class="fa fa-copyright" style="font-size: 20px;"></i>
+            2024 <br> All rights reserved to Ariba Bashar </p>
+    </footer>
+
+    <script>
+
+
+        // Toggle between showing and hiding the sidebar when clicking the menu icon
+        var mySidebar = document.getElementById("mySidebar");
+
+        function w3_open() {
+            if (mySidebar.style.display === 'block') {
+                mySidebar.style.display = 'none';
+            } else {
+                mySidebar.style.display = 'block';
+            }
+        }
+
+        // Close the sidebar with the close button
+        function w3_close() {
+            mySidebar.style.display = "none";
+        }
+    </script>
+
+
+</body>
+
+</html>
